@@ -38,7 +38,6 @@
             this.label3 = new System.Windows.Forms.Label();
             this.textBox3 = new System.Windows.Forms.TextBox();
             this.label4 = new System.Windows.Forms.Label();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.label7 = new System.Windows.Forms.Label();
             this.label8 = new System.Windows.Forms.Label();
             this.label9 = new System.Windows.Forms.Label();
@@ -50,6 +49,7 @@
             this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.textBox9 = new System.Windows.Forms.TextBox();
             this.groupBox2 = new System.Windows.Forms.GroupBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.label6 = new System.Windows.Forms.Label();
@@ -116,7 +116,6 @@
             this.tableLayoutPanel2.Controls.Add(this.label3, 4, 0);
             this.tableLayoutPanel2.Controls.Add(this.textBox3, 5, 0);
             this.tableLayoutPanel2.Controls.Add(this.label4, 0, 1);
-            this.tableLayoutPanel2.Controls.Add(this.comboBox1, 1, 1);
             this.tableLayoutPanel2.Controls.Add(this.label7, 0, 2);
             this.tableLayoutPanel2.Controls.Add(this.label8, 2, 2);
             this.tableLayoutPanel2.Controls.Add(this.label9, 4, 2);
@@ -126,6 +125,7 @@
             this.tableLayoutPanel2.Controls.Add(this.label5, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.textBox7, 1, 3);
             this.tableLayoutPanel2.Controls.Add(this.tableLayoutPanel3, 5, 4);
+            this.tableLayoutPanel2.Controls.Add(this.textBox9, 1, 1);
             this.tableLayoutPanel2.Location = new System.Drawing.Point(6, 19);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             this.tableLayoutPanel2.RowCount = 5;
@@ -200,15 +200,6 @@
             this.label4.Size = new System.Drawing.Size(32, 13);
             this.label4.TabIndex = 6;
             this.label4.Text = "Edad";
-            // 
-            // comboBox1
-            // 
-            this.comboBox1.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(95, 39);
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(209, 21);
-            this.comboBox1.TabIndex = 7;
             // 
             // label7
             // 
@@ -307,6 +298,7 @@
             this.button1.TabIndex = 0;
             this.button1.Text = "Guardar";
             this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // button2
             // 
@@ -317,6 +309,14 @@
             this.button2.TabIndex = 1;
             this.button2.Text = "Cancelar";
             this.button2.UseVisualStyleBackColor = true;
+            // 
+            // textBox9
+            // 
+            this.textBox9.Anchor = ((System.Windows.Forms.AnchorStyles)((System.Windows.Forms.AnchorStyles.Left | System.Windows.Forms.AnchorStyles.Right)));
+            this.textBox9.Location = new System.Drawing.Point(95, 39);
+            this.textBox9.Name = "textBox9";
+            this.textBox9.Size = new System.Drawing.Size(209, 20);
+            this.textBox9.TabIndex = 19;
             // 
             // groupBox2
             // 
@@ -390,6 +390,7 @@
             this.button3.TabIndex = 3;
             this.button3.Text = "Buscar";
             this.button3.UseVisualStyleBackColor = true;
+            this.button3.Click += new System.EventHandler(this.button3_Click);
             // 
             // dataGridView1
             // 
@@ -436,7 +437,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox textBox3;
         private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Label label8;
         private System.Windows.Forms.Label label9;
@@ -455,6 +455,7 @@
         private System.Windows.Forms.TextBox textBox8;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.DataGridView dataGridView1;
+        private System.Windows.Forms.TextBox textBox9;
     }
 }
 

@@ -14,3 +14,22 @@ C:\Users\cruz\Documents\Visual Studio 2017\Projects\ProyCajaCuentas\CapaPresenta
 C:\Users\cruz\Documents\Visual Studio 2017\Projects\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCajaIngresar.resources
 C:\Users\cruz\Documents\Visual Studio 2017\Projects\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmObservacion.resources
 C:\Users\cruz\Documents\Visual Studio 2017\Projects\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMain.resources
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\bin\Debug\CapaPresentacion.exe.config
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\bin\Debug\CapaPresentacion.exe
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\bin\Debug\CapaPresentacion.pdb
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\bin\Debug\CapaLogicaNegocios.dll
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\bin\Debug\CapaAccesoDatos.dll
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\bin\Debug\CapaLogicaNegocios.pdb
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\bin\Debug\CapaAccesoDatos.pdb
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\bin\Debug\CapaAccesoDatos.dll.config
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.csprojResolveAssemblyReference.cache
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCajaIngresar.resources
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMain.resources
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmObservacion.resources
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmSociosCRUD.resources
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.exe
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
