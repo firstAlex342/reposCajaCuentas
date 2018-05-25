@@ -26,6 +26,7 @@ C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion
 C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmCajaIngresar.resources
 C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmMain.resources
 C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmObservacion.resources
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmServicio.resources
 C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmSociosCRUD.resources
 C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.Properties.Resources.resources
 C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.GenerateResource.cache

@@ -58,5 +58,10 @@ namespace CapaPresentacion
         }
 
 
+
+        private void nuevoServicioToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            AbrirFormulario(new FrmServicio());
+        }
     }
 }

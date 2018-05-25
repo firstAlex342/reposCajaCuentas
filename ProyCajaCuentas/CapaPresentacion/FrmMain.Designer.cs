@@ -36,6 +36,8 @@
             this.cajaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ingresarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.panelContenedor = new System.Windows.Forms.Panel();
+            this.serviciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.nuevoServicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -44,7 +46,8 @@
             this.menuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
             this.inicioToolStripMenuItem,
             this.sociosToolStripMenuItem,
-            this.cajaToolStripMenuItem});
+            this.cajaToolStripMenuItem,
+            this.serviciosToolStripMenuItem});
             this.menuStrip1.Location = new System.Drawing.Point(0, 0);
             this.menuStrip1.Name = "menuStrip1";
             this.menuStrip1.Size = new System.Drawing.Size(800, 24);
@@ -77,7 +80,7 @@
             // operacionToolStripMenuItem
             // 
             this.operacionToolStripMenuItem.Name = "operacionToolStripMenuItem";
-            this.operacionToolStripMenuItem.Size = new System.Drawing.Size(129, 22);
+            this.operacionToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.operacionToolStripMenuItem.Text = "Operacion";
             this.operacionToolStripMenuItem.Click += new System.EventHandler(this.operacionToolStripMenuItem_Click);
             // 
@@ -107,6 +110,21 @@
             this.panelContenedor.Size = new System.Drawing.Size(800, 414);
             this.panelContenedor.TabIndex = 1;
             // 
+            // serviciosToolStripMenuItem
+            // 
+            this.serviciosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.nuevoServicioToolStripMenuItem});
+            this.serviciosToolStripMenuItem.Name = "serviciosToolStripMenuItem";
+            this.serviciosToolStripMenuItem.Size = new System.Drawing.Size(65, 20);
+            this.serviciosToolStripMenuItem.Text = "Servicios";
+            // 
+            // nuevoServicioToolStripMenuItem
+            // 
+            this.nuevoServicioToolStripMenuItem.Name = "nuevoServicioToolStripMenuItem";
+            this.nuevoServicioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.nuevoServicioToolStripMenuItem.Text = "Nuevo Servicio";
+            this.nuevoServicioToolStripMenuItem.Click += new System.EventHandler(this.nuevoServicioToolStripMenuItem_Click);
+            // 
             // FrmMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -134,5 +152,7 @@
         private System.Windows.Forms.ToolStripMenuItem cajaToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem ingresarToolStripMenuItem;
         private System.Windows.Forms.Panel panelContenedor;
+        private System.Windows.Forms.ToolStripMenuItem serviciosToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem nuevoServicioToolStripMenuItem;
     }
 }

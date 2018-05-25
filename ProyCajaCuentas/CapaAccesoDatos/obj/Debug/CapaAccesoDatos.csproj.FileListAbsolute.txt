@@ -10,3 +10,4 @@ C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaAccesoDatos\
 C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csproj.CoreCompileInputs.cache
 C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.dll
 C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.pdb
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaAccesoDatos\obj\Debug\CapaAccesoDatos.csprojResolveAssemblyReference.cache
