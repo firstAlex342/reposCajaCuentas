@@ -35,9 +35,10 @@
             this.operacionToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.cajaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.ingresarToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.panelContenedor = new System.Windows.Forms.Panel();
             this.serviciosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.nuevoServicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.panelContenedor = new System.Windows.Forms.Panel();
+            this.socioPagaServicioToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -72,7 +73,8 @@
             // sociosToolStripMenuItem
             // 
             this.sociosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.operacionToolStripMenuItem});
+            this.operacionToolStripMenuItem,
+            this.socioPagaServicioToolStripMenuItem});
             this.sociosToolStripMenuItem.Name = "sociosToolStripMenuItem";
             this.sociosToolStripMenuItem.Size = new System.Drawing.Size(53, 20);
             this.sociosToolStripMenuItem.Text = "Socios";
@@ -99,17 +101,6 @@
             this.ingresarToolStripMenuItem.Text = "Ingresar";
             this.ingresarToolStripMenuItem.Click += new System.EventHandler(this.ingresarToolStripMenuItem_Click);
             // 
-            // panelContenedor
-            // 
-            this.panelContenedor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
-            | System.Windows.Forms.AnchorStyles.Left) 
-            | System.Windows.Forms.AnchorStyles.Right)));
-            this.panelContenedor.BackColor = System.Drawing.Color.White;
-            this.panelContenedor.Location = new System.Drawing.Point(0, 24);
-            this.panelContenedor.Name = "panelContenedor";
-            this.panelContenedor.Size = new System.Drawing.Size(800, 414);
-            this.panelContenedor.TabIndex = 1;
-            // 
             // serviciosToolStripMenuItem
             // 
             this.serviciosToolStripMenuItem.DropDownItems.AddRange(new System.Windows.Forms.ToolStripItem[] {
@@ -124,6 +115,24 @@
             this.nuevoServicioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.nuevoServicioToolStripMenuItem.Text = "Nuevo Servicio";
             this.nuevoServicioToolStripMenuItem.Click += new System.EventHandler(this.nuevoServicioToolStripMenuItem_Click);
+            // 
+            // panelContenedor
+            // 
+            this.panelContenedor.Anchor = ((System.Windows.Forms.AnchorStyles)((((System.Windows.Forms.AnchorStyles.Top | System.Windows.Forms.AnchorStyles.Bottom) 
+            | System.Windows.Forms.AnchorStyles.Left) 
+            | System.Windows.Forms.AnchorStyles.Right)));
+            this.panelContenedor.BackColor = System.Drawing.Color.White;
+            this.panelContenedor.Location = new System.Drawing.Point(0, 24);
+            this.panelContenedor.Name = "panelContenedor";
+            this.panelContenedor.Size = new System.Drawing.Size(800, 414);
+            this.panelContenedor.TabIndex = 1;
+            // 
+            // socioPagaServicioToolStripMenuItem
+            // 
+            this.socioPagaServicioToolStripMenuItem.Name = "socioPagaServicioToolStripMenuItem";
+            this.socioPagaServicioToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.socioPagaServicioToolStripMenuItem.Text = "Socio Paga Servicio";
+            this.socioPagaServicioToolStripMenuItem.Click += new System.EventHandler(this.socioPagaServicioToolStripMenuItem_Click);
             // 
             // FrmMain
             // 
@@ -154,5 +163,6 @@
         private System.Windows.Forms.Panel panelContenedor;
         private System.Windows.Forms.ToolStripMenuItem serviciosToolStripMenuItem;
         private System.Windows.Forms.ToolStripMenuItem nuevoServicioToolStripMenuItem;
+        private System.Windows.Forms.ToolStripMenuItem socioPagaServicioToolStripMenuItem;
     }
 }

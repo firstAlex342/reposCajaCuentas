@@ -45,6 +45,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="FrmAsociadoPagaServicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="FrmAsociadoPagaServicio.Designer.cs">
+      <DependentUpon>FrmAsociadoPagaServicio.cs</DependentUpon>
+    </Compile>
     <Compile Include="FrmCajaIngresar.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -77,6 +83,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="FrmAsociadoPagaServicio.resx">
+      <DependentUpon>FrmAsociadoPagaServicio.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="FrmCajaIngresar.resx">
       <DependentUpon>FrmCajaIngresar.cs</DependentUpon>
     </EmbeddedResource>

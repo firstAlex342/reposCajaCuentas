@@ -55,5 +55,13 @@ namespace CapaLogicaNegocios
 
             return CLSManejador.Listado("pa_BuscarServicioXId", lst);
         }
+
+        public DataTable BuscarTodosServiciosMostrar_Id_Nombre()
+        {
+            List<ClsParametros> lst = new List<ClsParametros>();
+            lst.Add(new ClsParametros("@parametroNoNecesario", true));
+
+            return CLSManejador.Listado("pa_BuscarTodosServiciosMostrar_Id_Nombre", lst);
+        }
     }
 }

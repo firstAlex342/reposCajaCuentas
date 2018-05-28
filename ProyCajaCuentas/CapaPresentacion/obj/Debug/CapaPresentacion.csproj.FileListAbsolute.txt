@@ -34,3 +34,4 @@ C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion
 C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.csproj.CopyComplete
 C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.exe
 C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.pdb
+C:\Users\cruz\Documents\GitHub\reposCajaCuentas\ProyCajaCuentas\CapaPresentacion\obj\Debug\CapaPresentacion.FrmAsociadoPagaServicio.resources
