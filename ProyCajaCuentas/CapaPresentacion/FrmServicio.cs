@@ -19,7 +19,7 @@ namespace CapaPresentacion
             this.MinimumSize = this.Size;
         }
 
-        //--------------------Methods
+        //--------------------Methods controller
         private string InsertarServicioH(string nombre, string descripcion)
         {
 
@@ -38,13 +38,33 @@ namespace CapaPresentacion
             return (respuesta);
         }
 
+        private string ActualizarServicio(int idServicioBuscado, string nombreNew, string descripcionNew)
+        {
+            ClsServicio clsServicio = new ClsServicio();
+            clsServicio.Id = idServicioBuscado;
+            clsServicio.Nombre = nombreNew;
+            clsServicio.Descripcion = descripcionNew;
+
+            return(clsServicio.ActualizarServicio());
+        }
+
+
+        //----------Utils
 
         private void BorrarTxtBoxesFormCapturaServicio()
         {
             textBox1.Clear();
             textBox2.Clear();
+            textBox4.Clear();
         }
 
+        private void MostrarEnTxtBoxsServicio(DataTable tabla)
+        {
+            DataRow fila = tabla.AsEnumerable().ElementAt(0);  //obtener la unica fila
+            textBox4.Text = fila[0].ToString();
+            textBox1.Text = fila[1].ToString();
+            textBox2.Text = fila[2].ToString();
+        }
 
 
 
@@ -54,10 +74,28 @@ namespace CapaPresentacion
         {
             try
             {
-                string respuesta;
-                respuesta = InsertarServicioH(textBox1.Text, textBox2.Text);
-                MessageBox.Show(respuesta);
-                BorrarTxtBoxesFormCapturaServicio();
+                DialogResult res = MessageBox.Show("¿Estas usted seguro que desea continuar?", "Guardar cambios", MessageBoxButtons.YesNo, MessageBoxIcon.Question);
+                if(res == DialogResult.Yes)
+                {
+                    if (String.IsNullOrEmpty(textBox4.Text))
+                    {
+                        //insertar servicio
+                        string respuesta;
+                        respuesta = InsertarServicioH(textBox1.Text, textBox2.Text);
+                        MessageBox.Show(respuesta);
+                        BorrarTxtBoxesFormCapturaServicio();
+                    }
+
+                    else
+                    {
+                        //Actualizar Servicio
+                        string respuesta;
+                        int idServicio = Int32.Parse(textBox4.Text);
+                        respuesta = ActualizarServicio(idServicio, textBox1.Text, textBox2.Text);
+                        MessageBox.Show(respuesta);
+                        BorrarTxtBoxesFormCapturaServicio();
+                    }
+                }
             }
 
             catch(Exception ex)
@@ -81,6 +119,38 @@ namespace CapaPresentacion
             {
                 MessageBox.Show(ex.Message);
             }
+        }
+
+        private void dataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if ((e.ColumnIndex == 0) && (e.RowIndex >= 0))
+            {
+
+                if (String.IsNullOrEmpty((dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].EditedFormattedValue).ToString()))
+                {
+                }
+                else
+                {
+                    try
+                    {
+
+                        string idEnTexto = (dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].EditedFormattedValue).ToString();
+                        DataTable miTabla = BuscarServicioXId( Int32.Parse(idEnTexto));
+                        MostrarEnTxtBoxsServicio(miTabla);
+
+                    }
+
+                    catch (Exception ex)
+                    {
+                        MessageBox.Show(ex.Message);
+                    }
+                }
+            }
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            BorrarTxtBoxesFormCapturaServicio();
         }
     }
 }

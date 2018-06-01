@@ -159,7 +159,7 @@ namespace CapaPresentacion
                 {
                     try
                     {
-                        //MessageBox.Show((dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].EditedFormattedValue).ToString());
+                        
                         string idEnTexto =(dataGridView1.Rows[e.RowIndex].Cells[e.ColumnIndex].EditedFormattedValue).ToString();
                         DataTable miTabla = BuscarAsociadoXId(Int32.Parse(idEnTexto));
                         MostrarAsociadoEnTxtBoxes(miTabla);
