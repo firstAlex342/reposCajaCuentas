@@ -65,6 +65,33 @@ namespace CapaLogicaNegocios
             return (mensaje);
         }
 
+        public string ActualizarAsociado()
+        {
+            string mensaje = "";
+            List<ClsParametros> lst = new List<ClsParametros>();
+
+            //Parametros de entrada
+            lst.Add(new ClsParametros("@IdBuscado", this.Id));
+            lst.Add(new ClsParametros("@NombreNuevo", this.Nombre));
+            lst.Add(new ClsParametros("@APaternoNuevo", this.APaterno));
+            lst.Add(new ClsParametros("@AMaternoNuevo", this.AMaterno));
+            lst.Add(new ClsParametros("@EdadNueva", this.Edad));
+            lst.Add(new ClsParametros("@Telefono1Nuevo", this.Telefono1));
+            lst.Add(new ClsParametros("@Telefono2Nuevo", this.Telefono2));
+            lst.Add(new ClsParametros("@CorreoNuevo", this.Correo));
+            lst.Add(new ClsParametros("@DomicilioNuevo", this.Domicilio));
+
+            //Parametro de salida
+            lst.Add(new ClsParametros("@mensaje", SqlDbType.VarChar, 30));
+            CLSManejador.Ejecutar_sp("pa_ActualizarAsociado", lst);
+
+            //Regresar el valor almacenado en el parametro de salida
+            mensaje = lst[9].Valor.ToString();
+
+            return (mensaje);
+
+        }
+
         public DataTable BuscarAsociadoConSusServiciosXId()
         {
             List<ClsParametros> lst = new List<ClsParametros>();
@@ -72,6 +99,14 @@ namespace CapaLogicaNegocios
 
             
             return CLSManejador.Listado("pa_BuscarAsociadoConSusServiciosXId", lst);
+        }
+
+        public DataTable BuscarAsociadoXId()
+        {
+            List<ClsParametros> lst = new List<ClsParametros>();
+            lst.Add(new ClsParametros("@IdBuscado", this.Id));
+
+            return CLSManejador.Listado("pa_BuscarAsociadoXId", lst);
         }
 
     }
